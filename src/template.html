@@ -8,14 +8,17 @@
 <body>
     <header><h1>Weather App</h1></header>
     <main>
-        <div class="search">
-            <input type="search" name="search" id="searchInput" class="search-bar">
-            <button class="search-button" id="searchButton">Search</button>
-            <p class="error-message"></p>
+        <div class="flex-container">
+            <div class="search">
+                <input type="search" name="search" id="searchInput" class="search-bar" placeholder="Enter a city...">
+                <button class="search-button" id="searchButton">Search</button>
+            </div>
+            <div class="toggle-temp" id="toggleTemp">
+                <button id="toggleBtn" class="toggle-button">°F</button>
+            </div>
         </div>
-        <div class="toggle-temp" id="toggleTemp">
-            <button id="toggleBtn" class="toggle-button">°F</button>
-        </div>
+        <p class="error-message"></p>
+        
         <div class="content" id="content">
             
         </div>
