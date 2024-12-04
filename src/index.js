@@ -1,4 +1,5 @@
 import HandleWeatherDisplay from "./display_weather";
+import './styles.css'
 
 let isFahrenheit = true;
 
