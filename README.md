@@ -88,6 +88,15 @@ module.exports = {
   },
 };
 ```
+Instal `date-fns` to handle date format
+`npm install date-fns --save`
+## Icons used
+All the icons used are from <a href="https://feathericons.com/?query=weather">Feater Icons</a>
+## What I learned doing this project
+- How to fetch data from an api
+- Extract the necessary data from response json
+- How to use the async/await 
+
 
 
 
